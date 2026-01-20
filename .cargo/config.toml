@@ -1,0 +1,12 @@
+[alias]
+# Basic alias
+rel = "run --release"
+
+# Validation aliases
+relv = "run --release -- --with-validation"
+val = "run --release -- --validate-option"
+vald = "run --release -- --validate-direct"
+
+# Classification
+cl = "run --release -- --classify"
+classify = "run --release -- --classify"

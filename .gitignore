@@ -1,0 +1,11 @@
+/target/*
+.idea/
+/results/*
+!/results/.gitkeep
+/to_classify/*
+!/to_classify/.gitkeep
+/to_validate/*
+!/to_validate/.gitkeep
+/src/cache/*
+!/src/cache/.gitkeep
+/target/

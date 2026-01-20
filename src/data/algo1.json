@@ -1,0 +1,97 @@
+[
+    {
+        "name": "visibility(1), robots(2), colors(3)",
+        "rules": [
+            { 
+                "view": [
+                    ["*"],
+                    ["*", "F", "L"],
+                    ["*"]
+                ], 
+                "direction": "Right", 
+                "color": "F" 
+            },
+            { 
+                "view": [
+                    ["*"],
+                    ["*", "F", "R"],
+                    ["*"]
+                ], 
+                "direction": "Right", 
+                "color": "F" 
+            },
+            { 
+                "view": [
+                    ["*"],
+                    ["F", "L", "."],
+                    ["."]
+                ], 
+                "direction": "Right", 
+                "color": "L" 
+            },
+            { 
+                "view": [
+                    ["."],
+                    ["F", "R", "."],
+                    ["*"]
+                ], 
+                "direction": "Right", 
+                "color": "R" 
+            },
+            { 
+                "view": [
+                    ["."],
+                    ["W", "R", "F"],
+                    ["."]
+                ], 
+                "direction": "Up", 
+                "color": "R" 
+            },
+            { 
+                "view": [
+                    ["*"],
+                    ["W", "R", "."],
+                    ["F"]
+                ], 
+                "direction": "Right", 
+                "color": "L" 
+            },
+            { 
+                "view": [
+                    ["."],
+                    ["W", "L", "F"],
+                    ["."]
+                ], 
+                "direction": "Down", 
+                "color": "L" 
+            },
+            { 
+                "view": [
+                    ["F"],
+                    ["W", "L", "."],
+                    ["*"]
+                ], 
+                "direction": "Right", 
+                "color": "R" 
+            },
+            { 
+                "view": [
+                    ["W"],
+                    ["F", "L", "W"],
+                    ["."]
+                ], 
+                "direction": "Down", 
+                "color": "R" 
+            },
+            { 
+                "view": [
+                    ["."],
+                    ["F", "R", "W"],
+                    ["W"]
+                ], 
+                "direction": "Up", 
+                "color": "L" 
+            }
+        ]
+    }
+]
